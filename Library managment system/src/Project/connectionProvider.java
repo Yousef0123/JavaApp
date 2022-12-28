@@ -13,6 +13,7 @@ public class connectionProvider {
     public static Connection getCon(){
         try {
         Class.forName("com.mysql.jdbc.Driver");
+            // URL enter ur URL from MYSQL , username , Password
         Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/lms","root","7230676");
         return con;
         } catch (Exception e) {

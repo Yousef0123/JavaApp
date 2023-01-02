@@ -202,7 +202,7 @@ public class studentinfo extends javax.swing.JFrame {
         // 2. Establish a connection to the database
         String url = "jdbc:mysql://localhost:3306/lms";
         String username = "root";
-        String password = "Yu678954321-";
+        String password = "dein password";
 
        try (Connection conn = DriverManager.getConnection(url, username, password);
      Statement stmt = conn.createStatement();
@@ -264,7 +264,7 @@ public class studentinfo extends javax.swing.JFrame {
     // Delete the student from the database
     String url = "jdbc:mysql://localhost:3306/lms";
     String username = "root";
-    String password = "Yu678954321-";
+    String password = "dein password";
     try (Connection conn = DriverManager.getConnection(url, username, password);
          Statement stmt = conn.createStatement()) {
       String sql = "DELETE FROM student WHERE studentID = " + studentID;

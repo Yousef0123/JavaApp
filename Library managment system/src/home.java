@@ -144,7 +144,7 @@ public class home extends javax.swing.JFrame {
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // the view users Button in Home page
-        new viewstudent().setVisible(true);
+        new studentinfo().setVisible(true);
     }//GEN-LAST:event_jButton7ActionPerformed
 
     /**

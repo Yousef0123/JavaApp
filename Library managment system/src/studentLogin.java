@@ -182,7 +182,7 @@ public class studentLogin extends javax.swing.JFrame {
         // Verify the student in the database
         String url = "jdbc:mysql://localhost:3306/lms";
         String username = "root";
-        String password = "Yu678954321-";
+        String password = "dein password";
 
         try (Connection conn = DriverManager.getConnection(url, username, password);
              Statement stmt = conn.createStatement()) {

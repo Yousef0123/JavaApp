@@ -14,7 +14,7 @@ public class connectionProvider {
         try {
         Class.forName("com.mysql.jdbc.Driver");
             // URL enter ur URL from MYSQL , username , Password
-        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/lms","root","Yu678954321-");
+        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/lms","root","dein password");
         return con;
         } catch (Exception e) {
             System.out.println(e);
